@@ -45,6 +45,8 @@ function updateFilters() {
     }
     else{
       filters = {};
+      alert("Filter table is empty due to 0 filter values been entered. This site will reload and clear all filters.");
+      location.reload();
     };
   
     // 6. Call function to apply all filters and rebuild the table
